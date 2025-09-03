@@ -157,15 +157,18 @@ def main(timetable, lessons):
 
 timetable = main(timetable, lessons)
 
-# Define the order for days and times
-day_order = {day: i for i, day in enumerate(days)}
-time_order = {time: i for i, time in enumerate(timeslots)}
+def orderTimetable(timetable):
+    # Define the order for days and times
+    day_order = {day: i for i, day in enumerate(days)}
+    time_order = {time: i for i, time in enumerate(timeslots)}
 
-# Sort timetable items by day and time
-sorted_items = sorted(
-    timetable.items(),
-    key=lambda x: (day_order[x[0][0]], time_order[x[0][1]], x[0][2])
-)
+    # Sort timetable items by day and time
+    sorted_items = sorted(
+        timetable.items(),
+        key=lambda x: (day_order[x[0][0]], time_order[x[0][1]], x[0][2])
+    )
 
-for x in sorted_items:
-    print(x)
+    for x in sorted_items:
+        print(x)
+
+orderTimetable(timetable)
