@@ -1,5 +1,17 @@
 # School-Timetabler
 
-The administrator of a school contacted me and told me that they currently take 2 weeks to create a timetable for a school of around 20 students. I set out to discover if there was a better solution than their trial and error approach.
+A school administrator told me it currently takes around two weeks to manually build a timetable for a school of only around 20 students. Their method relied on trial and error.
 
-Knowing which rooms can be used for which subjects, what classes exist and how often a week they have to meet, and which teachers teach which subjects and on which days, CSP backtracking can be used to generate a timetable with no clashes.
+This project explores whether a better approach is possible. By modeling the problem as a Constraint Satisfaction Problem (CSP), we can automatically generate a clash-free timetable.
+
+The system takes into account:
+
+- Which rooms support which subjects
+
+- What classes exist and how many times per week they meet
+
+- Which teachers teach each subject, and on which days they are available
+
+Using a backtracking CSP solver, the program will produce a valid timetable without conflicts.
+
+Future development will involve a web-based UI, with the program as an API call, so that the administrator can use the project in the next school year. 
