@@ -1,0 +1,58 @@
+{
+  "subjects": {
+    "History": {
+      "classes": ["Y7_History_A", "Y7_History_B", "Y8_History_A", "Y8_History_B"],
+      "frequency": 3
+    },
+    "Maths": {
+      "classes": ["Y7_Maths_A", "Y7_Maths_B"],
+      "frequency": 3
+    },
+    "English": {
+      "classes": ["Y9_English_A", "Y9_English_B", "Y10_English"],
+      "frequency": 3
+    },
+    "Art": {
+      "classes": ["Y8_Art_A", "Y9_Art_B", "Y11_Art"],
+      "frequency": 2
+    },
+    "Woodworking": {
+      "classes": ["Y7_Woodworking_A", "Y7_Woodworking_B"],
+      "frequency": 2
+    },
+    "PE": {
+      "classes": ["Y10_PE", "Y11_PE"],
+      "frequency": 2
+    }
+  },
+  "teachers": {
+    "Mr Johnson": {
+      "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      "subjects": ["History"]
+    },
+    "Mrs Steven": {
+      "days": ["Thu", "Fri"],
+      "subjects": ["Art"]
+    },
+    "Mr Sawtell": {
+      "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      "subjects": ["History", "Maths"]
+    },
+    "Mrs Jenkins": {
+      "days": ["Tue", "Fri"],
+      "subjects": ["English"]
+    },
+    "Mrs Brian": {
+      "days": ["Mon", "Wed", "Fri"],
+      "subjects": ["PE", "Woodworking"]
+    }
+  },
+  "rooms": {
+    "Room1": ["History"],
+    "Room2": ["Art", "Maths"],
+    "Room3": ["History", "Art"],
+    "Room4": ["Maths"],
+    "Room5": ["English", "Woodworking"],
+    "Outside": ["PE"]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "subjects": {
+    "History": {
+      "classes": ["Y7_History_A", "Y7_History_B", "Y8_History_A", "Y8_History_B", "Y9_History_A"],
+      "frequency": 3
+    },
+    "Maths": {
+      "classes": ["Y7_Maths_A", "Y7_Maths_B", "Y8_Maths_A", "Y8_Maths_B"],
+      "frequency": 3
+    },
+    "English": {
+      "classes": ["Y9_English_A", "Y9_English_B", "Y10_English", "Y11_English"],
+      "frequency": 3
+    },
+    "Art": {
+      "classes": ["Y8_Art_A", "Y9_Art_B", "Y10_Art", "Y11_Art"],
+      "frequency": 2
+    },
+    "Woodworking": {
+      "classes": ["Y7_Woodworking_A", "Y7_Woodworking_B", "Y8_Woodworking_A"],
+      "frequency": 2
+    },
+    "PE": {
+      "classes": ["Y9_PE", "Y10_PE", "Y11_PE"],
+      "frequency": 2
+    },
+    "Science": {
+      "classes": ["Y7_Science_A", "Y7_Science_B", "Y8_Science_A", "Y9_Science_A"],
+      "frequency": 3
+    },
+    "Music": {
+      "classes": ["Y8_Music_A", "Y9_Music_B"],
+      "frequency": 1
+    }
+  },
+  "teachers": {
+    "Mr Johnson": {
+      "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      "subjects": ["History", "Science"]
+    },
+    "Mrs Steven": {
+      "days": ["Thu", "Fri"],
+      "subjects": ["Art", "Music"]
+    },
+    "Mr Sawtell": {
+      "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+      "subjects": ["History", "Maths", "Science"]
+    },
+    "Mrs Jenkins": {
+      "days": ["Tue", "Fri"],
+      "subjects": ["English", "PE"]
+    },
+    "Mrs Brian": {
+      "days": ["Mon", "Wed", "Fri"],
+      "subjects": ["PE", "Woodworking"]
+    },
+    "Mr Lee": {
+      "days": ["Mon", "Tue", "Thu"],
+      "subjects": ["Maths", "Science"]
+    },
+    "Ms Carter": {
+      "days": ["Wed", "Thu", "Fri"],
+      "subjects": ["English", "Art"]
+    }
+  },
+  "rooms": {
+    "Room1": ["History", "Science"],
+    "Room2": ["Art", "Maths", "Music"],
+    "Room3": ["History", "Art", "Science"],
+    "Room4": ["Maths", "Science"],
+    "Room5": ["English", "Woodworking"],
+    "Room6": ["PE", "Woodworking"],
+    "Outside": ["PE"],
+    "MusicRoom": ["Music"]
+  }
+}
