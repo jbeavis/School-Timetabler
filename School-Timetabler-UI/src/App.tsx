@@ -1,6 +1,11 @@
-import ListGroup from './components/ListGroup';
+import PythonAPITest from './components/PythonAPITest';
 function App() {
-  return <div><ListGroup></ListGroup></div>;
+  return (
+    <>
+      <h1>Test</h1>
+      <PythonAPITest></PythonAPITest>
+    </>
+  );
 }
 
 export default App;
