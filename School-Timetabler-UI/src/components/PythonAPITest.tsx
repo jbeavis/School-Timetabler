@@ -5,8 +5,8 @@ function PythonAPITest() {
 
   const getMessage = async () => {
     const response = await fetch("http://127.0.0.1:5000/hello");
-    const text = await response.text(); // 👈 plain text, not JSON
-    setMessage(text);
+    const text = await response.json();
+    setMessage(text.message);
   };
 
   return (
